@@ -63,3 +63,9 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "faker", "~> 2.19"
+
+gem "kaminari", "~> 1.2"
+
+gem "pg_search", "~> 2.3"

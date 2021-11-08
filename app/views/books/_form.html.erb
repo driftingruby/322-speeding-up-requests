@@ -1,0 +1,25 @@
+<%= form_with(model: book) do |form| %>
+  <div class="mb-3">
+    <%= form.label :title, class: 'form-label' %>
+    <%= form.text_field :title, class: 'form-control' %>
+  </div>
+
+  <div class="mb-3">
+    <%= form.label :author_id, class: 'form-label' %>
+    <%= form.text_field :author_id, class: 'form-control' %>
+  </div>
+
+  <div class="mb-3">
+    <%= form.label :publisher_id, class: 'form-label' %>
+    <%= form.text_field :publisher_id, class: 'form-control' %>
+  </div>
+
+  <div class="mb-3">
+    <%= form.label :genre_id, class: 'form-label' %>
+    <%= form.text_field :genre_id, class: 'form-control' %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit class: 'btn btn-primary' %>
+  </div>
+<% end %>
